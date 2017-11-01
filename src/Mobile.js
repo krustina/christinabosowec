@@ -9,8 +9,7 @@
 //             pagination: '.swiper-pagination-v',
 //             paginationClickable: true,
 //             keyboardControl: true,
-//             nextButton: '.arrow-down',
-//             mousewheelControl: false
+//             nextButton: '.arrow-down'
 //         }
 //         const hParams = {
 //             direction: 'horizontal',
@@ -19,8 +18,7 @@
 //             spaceBetween: 50,
 //             keyboardControl: true,
 //             nextButton: '.swiper-button-next',
-//             prevButton: '.swiper-button-prev',
-//             mousewheelControl: false
+//             prevButton: '.swiper-button-prev'
 //         }
 //         return (
 //             <div className="mobile">
@@ -49,11 +47,11 @@
 //                                     </div>
 //                                 </div>
 //                             </div>
-//                             <div className="swiper-slide">
+//                             {/* <div className="swiper-slide">
 //                                 <div className="main-container">
 //                                     <div className="work-icon-container">
 //                                         <div className="work-icon">
-//                                             <img src={require("./images/work_icons/dodge.png")} />
+//                                             <img src={require("./images/work_icons/dodge.jpeg")} />
 //                                         </div>
 //                                     </div>
 //                                 </div>
@@ -75,7 +73,7 @@
 //                                         </div>
 //                                     </div>
 //                                 </div>
-//                             </div>
+//                             </div> */}
 //                         </Swiper>
 //                     </div>
 //                     <div className="swiper-slide">
