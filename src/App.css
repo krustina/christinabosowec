@@ -190,7 +190,7 @@ h1{
 h2{
     /* font-family: 'poppins-medium'; */
     font-family: 'courier new';
-    font-size: 0.8em;
+    font-size: 0.95em;
     font-weight: 100; 
 }
 h3{
@@ -314,7 +314,7 @@ button{
     display: none;
 }
 .link-home{
-    -webkit-text-stroke: 1.25px #5098ff;
+    -webkit-text-stroke: 1px #5098ff;
     color: transparent;
     /* padding-left: 5%; for horizontal*/
     cursor: pointer;
@@ -327,7 +327,7 @@ button{
     align-items: center;
     color: black;
     /*width: 40%; for horizontal  */
-    width: 25%;
+    width:19em;
     padding: 1% 1% 0% 1%;
 }
 .toolbar-option{
@@ -340,6 +340,7 @@ button{
 }   
 .toolbar-option:hover {
     text-decoration: underline !important;
+    /* color: #5098ff !important; */
     cursor: pointer !important;
 }
 .mobile-toolbar{
@@ -376,7 +377,7 @@ button{
     height: 40%;
 }
 .p5{
-    height: 80%;
+    height: 60%;
 }
 .work-icon a img:hover{
      -webkit-filter: drop-shadow(5px 5px 5px #FF7CD5); 
@@ -437,7 +438,7 @@ button{
     font-size: 1.25em;
 }
 .two-columns p, .two-columns li{
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 /*CONTACT*/
@@ -522,7 +523,7 @@ button{
 
 @media only screen and (max-width: 1050px) and (min-width: 736px) {  
     .toolbar-options{
-        width: 35%;
+        width: 19em;
     }
 }
 @media only screen and (max-width: 735px) and (min-width: 0px) {
@@ -564,10 +565,11 @@ button{
         border: none;
         height: 6em;
         width: 6em;
-        outline: none; 
+        outline: none;
+        padding-right: 5%; 
     }
     .dropdown-close{
-        font-size: 4em;
+        font-size: 3em;
         font-weight: 100;
     }
     .toolbar-options-mobile {
@@ -582,17 +584,17 @@ button{
     }
     .link-home{
         /* font-size: 3.5vh; */
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: left;
         padding-left: 5%;
     }
     .mobile-toolbar{
         display: block;
-        height: 6em;
+        height: 4em;
         cursor: pointer;
     }
     .toolbar-options h2{
-        font-size: 1.5em;
+        font-size: 1em;
     }
 }
 @media only screen and (max-width : 768px) {
@@ -603,7 +605,7 @@ button{
         flex-direction: column;
     }
     .two-columns p, .two-columns li {
-        font-size: 2vh;
+        font-size: 2.25vh;
     }
     .bio{
         width: 100%;

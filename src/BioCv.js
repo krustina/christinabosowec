@@ -17,7 +17,7 @@ class BioCv extends Component {
                             </div>
                             <div className='bio-text-container'>
                                 <h1>BIO</h1>
-                                <p>Christina Bosowec is a nanny, future Doula, and interdisciplinary artist living in Montreal, Quebec, Canada.</p>
+                                <p>Christina Bosowec is an interdisciplinary artist, nanny and Doula living in Montreal, Quebec, Canada.</p>
                             </div>
                         </div>
                         <div className='cv'>
@@ -30,7 +30,7 @@ class BioCv extends Component {
                             <br />
                             <p className="bold">Relevant Work Experience</p>
                             <ul>
-                                <li>2016 - Current - Development Committee, Articule. <br/>Montreal, QC.</li>
+                                <li>2016 - 04/2017 - Development Committee, Articule. <br/>Montreal, QC.</li>
                                 <li>2013 - 05/2014 - VP Internal, Student Union of NSCAD University, <br/>Halifax, NS.</li> 
                                 <li>2013 - 04/2014 - Coordinator, Free Coffee Publication, <br/>Halifax, NS.</li>
                                 <li>2013 - 05/2014 - Anna Leonowens Committee Member, <br/>Halifax, NS.</li>
@@ -45,6 +45,7 @@ class BioCv extends Component {
 
                                 <br />
                                 <p className="bold">Group Exhibitions</p>
+                                <li>08/2017 - Place Publique, Fonderie Darling,<br/> Montreal, QC. </li>
                                 <li>06/2015 - Perform Vol. 3, The Khyber Centre for the Arts, <br/>Halifax, NS.</li>
                                 <li>05/2015 - NSCAD Graduation Exhibition, Anna Leonowens Gallery, <br/>Halifax, NS.</li>
                                 <li>04/2015 - No End of Insight, Media Landscape and Advanced Studio in Intermedia Group Show,
