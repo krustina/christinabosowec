@@ -183,12 +183,12 @@ body{
 }
 h1{
     font-family: "bluu";
-    font-size: 2.25em;
+    font-size: 1.85em;
 }
 h2{
     /* font-family: 'poppins-medium'; */
     font-family: 'courier new';
-    font-size: 1em;
+    font-size: 0.95em;
     font-weight: 100; 
 }
 h3{
@@ -582,6 +582,7 @@ button{
         /* font-size: 3.5vh; */
         font-size: 2em;
         text-align: left;
+        padding-left: 5%;
     }
     .mobile-toolbar{
         display: block;
