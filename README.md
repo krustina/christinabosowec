@@ -1,1 +1,7 @@
-This is an artist website made for artist Christina Bosowec using React. 
+ 
+           ______________________________________
+  ________|                                      |_______
+  \       |      This is an website made for     |      /
+   \      | artist Christina Bosowec using React.|     /
+   /      |______________________________________|     \
+  /__________)                                (_________\
