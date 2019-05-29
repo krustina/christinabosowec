@@ -10,12 +10,17 @@ return (
  <div className='main-container'>
         {/* <Mobile/>   */}
         <div className="desktop">
-              <Link to="work">  
                 <div className="landing-container">
-                    <img src={require("./images/x-tina-enter-outline5.png")} className="home-image" />
-                    <h1 className="home-title">CHRISTINA<br />BOSOWEC</h1>
-                </div>
-              </Link>  
+                    <img src={require("./images/tina logo thin2.png")} className="home-image" />
+                    {/* <h1 className="home-title">CHRISTINA<br />BOSOWEC</h1> */}
+                    <div className="website-selection-container">
+                      <Link to="work">
+                        <h2>Artist</h2>
+                      </Link>
+                      <h2>+</h2>
+                      <h2>Full Spectrum Doula Care</h2>
+                    </div>
+                </div> 
         </div>
         </div>
     );
