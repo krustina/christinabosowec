@@ -29,7 +29,7 @@ class NavBarDoula extends Component {
     render() {
         if (this.state.dropdown === false) {
             return (
-                <div className="mobile-toolbar-container">
+                <div className="toolbar-container">
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
@@ -40,75 +40,67 @@ class NavBarDoula extends Component {
                         </div>
                     </div>
                     <div className="toolbar-options toolbar-options-mobile">
-                    <Link to="work" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_about" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>ABOUT</h2>
                         </Link>
 
-                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_services" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>SERVICES</h2>
                         </Link>
 
-                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_FAQ" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>FAQ</h2>
                         </Link>
 
-                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_testamonials" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>TESTAMONIALS</h2>
                         </Link>
 
-                        <Link to="contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>CONTACT</h2>
                         </Link>
                     </div>
                 </div>
-
-
-
-
             );
         }
         if (this.state.dropdown === true) {
             return (
-                <div className="mobile-toolbar-container">
+                <div className="toolbar-container">
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
-                            
+
 
                             <button className="dropdown" onClick={this.handleDropdown.bind(this)} >
-                                
+
                                 <span className="dropdown-close"> X </span>
                             </button>
                         </div>
                     </div>
                     <div className="toolbar-options">
-                        <Link to="work" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_about" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>ABOUT</h2>
                         </Link>
 
-                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_services" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>SERVICES</h2>
                         </Link>
 
-                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_FAQ" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>FAQ</h2>
                         </Link>
 
-                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_testamonials" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>TESTAMONIALS</h2>
                         </Link>
 
-                        <Link to="contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>CONTACT</h2>
                         </Link>
                     </div>
                 </div>
-
-
             );
         }
-
-
     }
 }
 

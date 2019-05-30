@@ -62,11 +62,13 @@ class Performance extends Component {
                     <div className='show-title'>
                         <Link to='work'><h2 className='back-arrow'>←</h2></Link>
                         <br/>
-                        <h2>Performance</h2>
+                        <h2>ground ing</h2>
                         <br/>
                         <h2>Location</h2>
                         <br/>
-                        <h2>Photo Credit</h2>
+                        <h2>In collaboration with Mil</h2>
+                        <br/>
+                        <h2>Photo Credit: Brandon Brookbank</h2>
                     </div>
                     <div className='show-images'>
                         <ul>

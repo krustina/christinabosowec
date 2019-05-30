@@ -29,7 +29,7 @@ class NavBar extends Component {
     render() {
         if (this.state.dropdown === false) {
             return (
-                <div className="mobile-toolbar-container">
+                <div className="toolbar-container">
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
@@ -45,11 +45,11 @@ class NavBar extends Component {
                             <h2>WORK</h2>
                         </Link>
                         
-                                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
-                            <h2>BIO + CV</h2>
+                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                            <h2>BIO</h2>
                         </Link>
                         
-                                        <Link to="contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
                             <h2>CONTACT</h2>
                         </Link>
                     </div>
@@ -62,7 +62,7 @@ class NavBar extends Component {
         }
         if (this.state.dropdown === true) {
             return (
-                <div className="mobile-toolbar-container">
+                <div className="toolbar-container">
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
@@ -80,7 +80,7 @@ class NavBar extends Component {
                         </Link>
 
                         <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
-                            <h2>BIO + CV</h2>
+                            <h2>BIO</h2>
                         </Link>
 
                         <Link to="contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>

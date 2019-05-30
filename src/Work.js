@@ -1,51 +1,52 @@
 import React, { Component } from 'react';
-import { Router, Route, Link } from 'react-router';
+import { Link } from 'react-router';
 import NavBar from './NavBar.js';
 import './App.css';
 
 
-var portfolio = [
+const portfolio = [
     {
         key: 1,
         position: 'p1',
         link: 'bedOfRoses',
-        source: "./images/work_icons/roses.jpeg"
+        source: './images/work_icons/roses.jpeg'
+        
     },
     {
         key: 2,
         position: 'p2',
         link: 'dodgeSpirit',
-        source: "./images/work_icons/dodge.jpeg"
+        source: './images/work_icons/dodge.jpeg'
     },
     {
         key: 3,
         position: 'p3',
         link: 'scrunchieBodyTube',
-        source: "./images/work_icons/scrunchie.png"
+        source: './images/work_icons/scrunchie.png'
     },
     {
         key: 4,
         position: 'p4',
         link: 'objectSelection',
-        source: "./images/work_icons/main_page_image.png"
+        source: './images/work_icons/main_page_image.png'
     },
     {
         key: 5,
         position: 'p5',
         link: 'spongeMeOff',
-        source: "./images/work_icons/spongemeoff.gif"
+        source: './images/work_icons/spongemeoff.gif'
     },
     {
         key: 6,
         position: 'p6',
         link: 'performance',
-        source: "./images/work_icons/performance.jpeg"
+        source: './images/work_icons/performance.jpeg'
     }
 ]
 
-class Work extends Component {
-    render() {
 
+class Work extends Component {
+    render() { 
         return (
             <div className='main-container-2'>
                 <NavBar />

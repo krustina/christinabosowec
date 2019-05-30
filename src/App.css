@@ -299,6 +299,13 @@ li{
 }
 
 /*NavBar*/
+.toolbar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
 .toolbar{
     display: flex;
     flex-direction: column;
@@ -316,6 +323,7 @@ button{
 }
 .link-home{
     -webkit-text-stroke: 1px #2846F6;
+    font-size: 1.5em;
     color: transparent;
     /* padding-left: 5%; for horizontal*/
     cursor: pointer;
@@ -324,10 +332,10 @@ button{
 }
 .toolbar-options{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     color: black;
-    width: 40%; 
+    width: 50%; 
     /* width:19em; */
     padding: 1% 1% 0% 1%;
 }
@@ -417,7 +425,7 @@ button{
     /* max-width: 100%; */
 }
 .bio-text-container{
-    padding: 5%;
+    padding-top: 10%;
 }
 .bio-text-container h2{
     padding-top: 5%;
@@ -495,18 +503,25 @@ button{
     overflow-x: scroll;
 }
 
-.mobile-toolbar-container{
+/* DOULA SITE STYLES */
+.doula-contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    height: 50vh;
+}
+.doula-logo{
+    height: 12em;
 }
 
+
+
+/* MOBILE STYLES */
 @media only screen and (max-width: 1050px) and (min-width: 736px) {  
-    .toolbar-options{
+    /* .toolbar-options{
         width: 19em;
-    }
+    } */
 }
 @media only screen and (max-width: 735px) and (min-width: 0px) {
     .link h2{
@@ -538,7 +553,7 @@ button{
         /* position: fixed; */
     }
 
-    .mobile-toolbar-container{
+    .toolbar-container{
         width: 100%;
     }
     button{
