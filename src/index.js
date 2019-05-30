@@ -11,6 +11,8 @@ import DodgeSpirit from './DodgeSpirit.js';
 import ScrunchieBodyTube from './ScrunchieBodyTube.js';
 import ObjectSelection from './ObjectSelection.js';
 import SpongeMeOff from './SpongeMeOff.js';
+import Performance from './Performance.js';
+import Doula from './Doula.js';
 import './index.css';
 
 
@@ -22,13 +24,15 @@ ReactDOM.render(
     <Route path="/" component={App}></Route>
     <IndexRoute component={Landing} />
          <Route path="work" component={Work} />
-         <Route path="bio" component={BioCv} />
-         <Route path="contact" component={Contact} />
-         <Route path="bedOfRoses" component={BedOfRoses}/>
-         <Route path="dodgeSpirit" component={DodgeSpirit}/>
-         <Route path="scrunchieBodyTube" component={ScrunchieBodyTube}/>
-         <Route path="objectSelection" component={ObjectSelection}/>
-         <Route path="spongeMeOff" component={SpongeMeOff}/>
+          <Route path="bio" component={BioCv} />
+          <Route path="contact" component={Contact} />
+          <Route path="bedOfRoses" component={BedOfRoses}/>
+          <Route path="dodgeSpirit" component={DodgeSpirit}/>
+          <Route path="scrunchieBodyTube" component={ScrunchieBodyTube}/>
+          <Route path="objectSelection" component={ObjectSelection}/>
+          <Route path="spongeMeOff" component={SpongeMeOff}/>
+          <Route path="performance" component={Performance}/>
+        <Route path="doula" component={Doula}/>
   </Router>,
   document.getElementById('root')
 );

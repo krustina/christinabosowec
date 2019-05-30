@@ -9,35 +9,51 @@ import './App.css';
 var images = [
     {
         key: 1,
-        source: "./images/Scrunchie_body_tube/000004.png"
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-1.jpeg"
     },
     {
         key: 2,
-        source: "./images/Scrunchie_body_tube/0417_D7_5938-2.jpg"
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-2.jpeg"
     },
     {
         key: 3,
-        source: "./images/Scrunchie_body_tube/0417_D7_5942.jpg"
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-3.jpeg"
     },
     {
         key: 4,
-        source: "./images/Scrunchie_body_tube/0417_D7_5948.jpg"
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-4.jpeg"
     },
     {
         key: 5,
-        source: "./images/Scrunchie_body_tube/0417_D7_5954.jpg"
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-5.jpeg"
     },
     {
         key: 6,
-        source: "./images/Scrunchie_body_tube/0417_D7_5955.jpg"
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-6.jpeg"
     },
     {
         key: 7,
-        source: "./images/Scrunchie_body_tube/0417_D7_5972.jpg"
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-7.jpeg"
+    },
+    {
+        key: 8,
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-8.jpeg"
+    },
+    {
+        key: 9,
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-9.jpeg"
+    },
+    {
+        key: 10,
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-10.jpeg"
+    },
+    {
+        key: 11,
+        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-11.jpeg"
     },
 
 ]
-class ScrunchieBodyTube extends Component {
+class Performance extends Component {
     render() {
         return (
             <div className='main-container'>
@@ -46,7 +62,11 @@ class ScrunchieBodyTube extends Component {
                     <div className='show-title'>
                         <Link to='work'><h2 className='back-arrow'>←</h2></Link>
                         <br/>
-                        <h2>Scrunchie Body Tube</h2>
+                        <h2>Performance</h2>
+                        <br/>
+                        <h2>Location</h2>
+                        <br/>
+                        <h2>Photo Credit</h2>
                     </div>
                     <div className='show-images'>
                         <ul>
@@ -65,4 +85,4 @@ class ScrunchieBodyTube extends Component {
     }
 }
 
-export default ScrunchieBodyTube;
+export default Performance;

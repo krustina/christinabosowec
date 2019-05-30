@@ -34,6 +34,12 @@ var portfolio = [
         position: 'p5',
         link: 'spongeMeOff',
         source: "./images/work_icons/spongemeoff.gif"
+    },
+    {
+        key: 6,
+        position: 'p6',
+        link: 'performance',
+        source: "./images/work_icons/performance.jpeg"
     }
 ]
 

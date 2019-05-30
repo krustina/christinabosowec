@@ -18,7 +18,9 @@ return (
                         <h2>Artist</h2>
                       </Link>
                       <h2>+</h2>
-                      <h2>Full Spectrum Doula Care</h2>
+                      <Link to="doula">
+                        <h2>Full Spectrum Doula Care</h2>
+                      </Link>
                     </div>
                 </div> 
         </div>
