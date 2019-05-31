@@ -12,7 +12,7 @@ import DodgeSpirit from './DodgeSpirit.js';
 import ScrunchieBodyTube from './ScrunchieBodyTube.js';
 import ObjectSelection from './ObjectSelection.js';
 import SpongeMeOff from './SpongeMeOff.js';
-import Performance from './Performance.js';
+import Grounding from './Grounding.js';
 
 import DoulaAbout from './DoulaAbout.js';
 import DoulaServices from './DoulaServices.js';
@@ -37,7 +37,7 @@ ReactDOM.render(
     <Route path="scrunchieBodyTube" component={ScrunchieBodyTube} />
     <Route path="objectSelection" component={ObjectSelection} />
     <Route path="spongeMeOff" component={SpongeMeOff} />
-    <Route path="performance" component={Performance} />
+    <Route path="ground-ing" component={Grounding} />
 
     <Route path="doula_about" component={DoulaAbout} />
     <Route path="doula_services" component={DoulaServices} />

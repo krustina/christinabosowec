@@ -14,11 +14,11 @@ class Landing extends Component {
             <img src={require("./images/tina logo thin2.png")} className="home-image" />
             <div className="website-selection-container">
               <Link to="doula_about">
-                <h2>Full Spectrum Doula Care</h2>
+                <h3>Full Spectrum Doula Care</h3>
               </Link>
-              <h2>+</h2>
+              <h3>+</h3>
               <Link to="work">
-                <h2>Artist</h2>
+                <h3>Artist</h3>
               </Link>
             </div>
           </div>

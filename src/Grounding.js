@@ -53,7 +53,7 @@ var images = [
     },
 
 ]
-class Performance extends Component {
+class Grounding extends Component {
     render() {
         return (
             <div className='main-container'>
@@ -64,11 +64,11 @@ class Performance extends Component {
                         <br/>
                         <h2>ground ing</h2>
                         <br/>
-                        <h2>Location</h2>
+                        <h2>Le Mile End s’Articule </h2>
                         <br/>
                         <h2>In collaboration with Mil</h2>
                         <br/>
-                        <h2>Photo Credit: Brandon Brookbank</h2>
+                        <h2>Photo Credit: Brandon Brookbank and Megan Mericle</h2>
                     </div>
                     <div className='show-images'>
                         <ul>
@@ -87,4 +87,4 @@ class Performance extends Component {
     }
 }
 
-export default Performance;
+export default Grounding;
