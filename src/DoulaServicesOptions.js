@@ -72,8 +72,8 @@ class DoulaServicesOptions extends Component {
                             <h2>{this.state.servicedesc}</h2>
                         </div>
                         <div className='doula-service-details'>
-                            <div>
-                                <h2><b>{this.state.package1title}</b>&nbsp;{this.state.package1price}</h2>
+                            <div className='doula-package'>
+                                <h2><b>{this.state.package1title}&nbsp;-&nbsp;{this.state.package1price}</b></h2>
                                 <ul>
                                     {this.state.package1desc.map((desc, i)=>
                                         <li key={i}>{desc}</li>)}    
@@ -83,8 +83,8 @@ class DoulaServicesOptions extends Component {
                                         <li key={i}>{price}</li>)}    
                                 </ul>
                             </div>
-                            <div>
-                                <h2><b>{this.state.package2title}</b>&nbsp;{this.state.package2price}</h2>
+                            <div className='doula-package'>
+                                <h2><b>{this.state.package2title}&nbsp;-&nbsp;{this.state.package2price}</b></h2>
                                 <ul>
                                     {this.state.package2desc.map((desc, i)=>
                                         <li key={i}>{desc}</li>)}    

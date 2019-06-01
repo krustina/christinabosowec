@@ -526,8 +526,9 @@ button{
 /* DOULA SITE STYLES */
 .doula-content-container{
     width:85%;
-    height: 100%;
-    padding: 1.75em 0 1.75em 0;
+    height: auto;
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
     display: flex;
     flex-direction:column;
 }
@@ -545,7 +546,7 @@ button{
     height: auto;
 }
 .doula-services-options{
-    height: 100%;
+    height: auto;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -555,6 +556,7 @@ button{
 
 .doula-service-container{
     width:100%;
+    height: auto;
     display:flex;
     flex-direction:column;
     margin-bottom: 2em;
@@ -582,6 +584,9 @@ button{
 .doula-service-details{
     margin-top: 1.2em;
     margin-left: 1.5em;
+}
+.doula-package{
+    margin-top: 8%;
 }
 /* DOULA CONTACT */
 .doula-contact{
