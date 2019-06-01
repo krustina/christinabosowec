@@ -9,8 +9,8 @@ const services = [
         key: 1,
         servicetitle: "Birth Support",
         servicedesc: "Birth support provides emotional and non-medical support while navigating the stages of pregnancy, birth and postpartum. Evidence based information about pregnancy, the birth process, and postpartum period is shared to help the birthing person make informed decisions for themselves and their baby. The birthing person’s needs, hopes and priorities are also a focus along with any concerns or fears they may have around birth. Birth support also includes:",
-        package1title: "Birth Package",
-        package1price: "$950",
+        package1title: "Birth Package -",
+        package1price: " $950",
         package1pricedetails:[""],
         package1desc: [
             "Up to three 2 hour prenatal visits to prepare for birth",
@@ -19,8 +19,8 @@ const services = [
             "On-call support at 37 weeks",
             "One postpartum visit after birth"
         ],
-        package2title: "Birth and Postpartum Package",
-        package2price: "$1200",
+        package2title: "Birth and Postpartum Package -",
+        package2price: " $1200",
         package2pricedetails:[""],
         package2desc: [
             "Up to three 2 hour prenatal visits to prepare for birth",
