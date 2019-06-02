@@ -4,7 +4,7 @@ import './App.css';
 
 
 
-class DoulaServicesOptions extends Component {
+class DoulaServicesDropdown extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -103,4 +103,4 @@ class DoulaServicesOptions extends Component {
     }
 }
 
-export default DoulaServicesOptions;
+export default DoulaServicesDropdown;

@@ -189,6 +189,7 @@ h2{
     font-family: 'courier new';
     font-size: 0.9rem;
     font-weight: 100; 
+    line-height: 1.12rem;
 }
 h3{
     font-family: "bluu";
@@ -526,24 +527,37 @@ button{
 /* DOULA SITE STYLES */
 .doula-content-container{
     width:85%;
-    height: auto;
+    height: 100%;
     padding-top: 1.75em;
-    padding-bottom: 1.75em;
+    /* padding-bottom: 1.75em; */
     display: flex;
     flex-direction:column;
 }
-
+/* DOULA ABOUT */
+.doula-about-details{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.doula-about-details h2{
+    padding-bottom: 1.75em;
+}
 /* DOULA SERVICES */
 .doula-services-main-container{
-    height: auto;
+    height: 100%;
     width: 100%;
     padding-top: 1.5em;
+    /* padding-bottom: 1.5em; */
     display: flex;
     justify-content: space-between;
 }
-.doula-service-image{
+.doula-image{
     width: 40%;
     height: auto;
+    padding-bottom: 1.75em;
 }
 .doula-services-options{
     height: auto;
@@ -553,7 +567,6 @@ button{
     justify-content: space-between;
     align-items: start;
 }
-
 .doula-service-container{
     width:100%;
     height: auto;
@@ -588,6 +601,13 @@ button{
 .doula-package{
     margin-top: 8%;
 }
+/* DOULA FAQ */
+.doula-faq-main-container{
+
+}
+.doula-faq{
+
+}
 /* DOULA CONTACT */
 .doula-contact{
     display: flex;
@@ -598,6 +618,9 @@ button{
 }
 .doula-logo{
     height: 12em;
+}
+.fine-print{
+    padding-bottom:1.75em;
 }
 
 

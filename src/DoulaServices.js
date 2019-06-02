@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Router, Route, Link } from 'react-router';
 import NavBarDoula from './NavBarDoula.js';
-import DoulaServicesOptions from './DoulaServicesOptions.js';
+import DoulaServicesDropdown from './DoulaServicesDropdown.js';
 import './App.css';
 
 const services = [
@@ -112,14 +112,14 @@ class DoulaServices extends Component {
                 <div className='doula-content-container'>
                     <h1>Services</h1>
                     <div className='doula-services-main-container'>
-                        <img className='doula-service-image'></img>
+                        <img className='doula-image'></img>
                         <div className='doula-services-options'>
                             <div>
                                 {services.map((service, i) =>
-                                    <DoulaServicesOptions key={i} service={service}/>
+                                    <DoulaServicesDropdown key={i} service={service}/>
                                     )}
                             </div>
-                            <h2>
+                            <h2 className='fine-print'>
                                 <b>Please contact me on how I can support you best.</b>
                             <br/>
                             <br/>
