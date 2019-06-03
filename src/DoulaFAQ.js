@@ -12,7 +12,7 @@ const FAQ = [
     {
         key: 2,
         question: 'What is the difference between a Midwife and a Doula?',
-        answer: 'Midwives are trained to provide clinical care during pregnancy and birth, just like a Family Physician or Obstetrician. While a Midwife provides clinical care, a Doula provides emotional and physical support throughout pregnancy and labour. Doulas a are non-clinical support person. There are also many types of Doulas, other than a Doula who supports pregnant people through labour and birth. A Postpartum Doula spends time with families during the postpartum period to provide encouragement and foster confidence in new parents while they adjust to life with a newborn. There are also Antepartum Doulas who work with those on bed rest due to a high risk pregnancy. An Abortion Doula provides non-judgemental support to those seeking an abortion. Miscarriage and Stillbirth Doulas give sensitive and compassionate care to someone who is struggling with a pregnancy loss. There are also Adoption Doulas who provide support to those going through the process of adopting.',
+        answer: 'Midwives are trained to provide clinical care during pregnancy and birth, just like a Family Physician or Obstetrician. While a Midwife provides clinical care, a Doula provides emotional and physical support throughout pregnancy and labour. Doulas are a non-clinical support person. There are also many types of Doulas, other than a Doula who supports pregnant people through labour and birth. A Postpartum Doula spends time with families during the postpartum period to provide encouragement and foster confidence in new parents while they adjust to life with a newborn. There are also Antepartum Doulas who work with those on bed rest due to a high risk pregnancy. An Abortion Doula provides non-judgemental support to those seeking an abortion. Miscarriage and Stillbirth Doulas give sensitive and compassionate care to someone who is struggling with a pregnancy loss. There are also Adoption Doulas who provide support to those going through the process of adopting.',
     },
     {
         key: 3,
@@ -35,10 +35,13 @@ class DoulaFAQ extends Component {
                 <div className='doula-content-container'>
                     <h1>F.A.Q</h1>
                     <div className='doula-faq-main-container'>
-                        {FAQ.map((question, i)=>
-                            <div className='doula-faq'>
-                                <h1>{question.question}</h1>
-                                <h2>{question.answer}</h2>
+                        {FAQ.map((question, i) =>
+                            <div className='doula-faq-sub-container'>
+                                <div className='doula-faq'>
+                                    <h1>{question.question}</h1>
+                                    <h2>{question.answer}</h2>
+                                </div>
+                                <img className='curved-line' src={require('./images/curve.png')} />
                             </div>
                         )}
                     </div>
