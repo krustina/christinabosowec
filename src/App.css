@@ -620,25 +620,27 @@ button{
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
 }
-.doula-faq:nth-child(2n){
+/* .doula-faq:nth-child(2n){
     clear:right;
-}
-.doula-faq:nth-child(3n)
+} */
+/* .doula-faq:nth-child(3n)
 {
     padding-top:10%;
-}
+    text-align: right;
+} */
 .curved-line{
     width: auto;
     height: 6rem;
     margin-top: 2%;
     margin-right: 10%;
-    margin-bottom: 2%;
+    
 }
 .doula-faq-sub-container:nth-child(even) .curved-line{
     -moz-transform: scale(-1, 1);
     -o-transform: scale(-1, -1);
     -webkit-transform: scale(-1, 1);
     transform: scale(-1, 1);
+    margin-bottom: 2%;
 }
 .doula-faq-sub-container:last-of-type .curved-line{
     display:none;
