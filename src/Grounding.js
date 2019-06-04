@@ -9,49 +9,20 @@ import './App.css';
 var images = [
     {
         key: 1,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-1.jpeg"
+        source: "./images/ground_ing/3_ground-ing.jpg"
     },
     {
         key: 2,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-2.jpeg"
+        source: "./images/ground_ing/7_ground ing.JPG"
     },
     {
         key: 3,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-3.jpeg"
+        source: "./images/ground_ing/12_ground ing.jpg"
     },
     {
         key: 4,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-4.jpeg"
-    },
-    {
-        key: 5,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-5.jpeg"
-    },
-    {
-        key: 6,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-6.jpeg"
-    },
-    {
-        key: 7,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-7.jpeg"
-    },
-    {
-        key: 8,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-8.jpeg"
-    },
-    {
-        key: 9,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-9.jpeg"
-    },
-    {
-        key: 10,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-10.jpeg"
-    },
-    {
-        key: 11,
-        source: "./images/latest_performance/JPEG image-5ECEF7E0DF90-11.jpeg"
-    },
-
+        source: "./images/ground_ing/13_ground ing.JPG"
+    }
 ]
 class Grounding extends Component {
     render() {
@@ -68,7 +39,7 @@ class Grounding extends Component {
                         <br/>
                         <h2>In collaboration with Mil</h2>
                         <br/>
-                        <h2>Photo Credit: Brandon Brookbank and Megan Mericle</h2>
+                        <h2>Photo Credit: Megan Mericle</h2>
                     </div>
                     <div className='show-images'>
                         <ul>

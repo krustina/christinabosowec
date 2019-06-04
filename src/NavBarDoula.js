@@ -25,15 +25,18 @@ class NavBarDoula extends Component {
 
         }
     }
-
     render() {
         if (this.state.dropdown === false) {
             return (
                 <div className="toolbar-container">
                     <div className="toolbar">
                         <div className="header-wrapper">
-                            <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
-
+                            <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}>
+                            <h1 className="link-home">CHRISTINA BOSOWEC</h1>
+                            <h2><i>~ Full-Spectrum Doula Care ~</i></h2>
+                            
+                            </Link>
+                            
                             <button className="dropdown" onClick={this.handleDropdown.bind(this)} >
                                 <img className='mobile-toolbar' src={require("./images/hamburger.png")} />
                             </button>

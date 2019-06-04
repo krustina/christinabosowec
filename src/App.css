@@ -203,7 +203,7 @@ h4{
 p{
     font-family: 'courier new';
     font-weight: 100;
-    font-size: 3.5vw;
+    font-size: .75rem;
 }
 li{
     /* font-size: 3.5vw; */
@@ -228,7 +228,9 @@ li{
     flex-direction: column;
     justify-content: space-between; 
     align-items: center;
+    height: auto;
     width: 100vw;
+    padding-bottom: 5rem;
 }
 .content-container{
     flex: 1;
@@ -265,6 +267,15 @@ li{
 {
     background:rgba(255, 255, 255);
     border: 1px solid #FF7CD5;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 1px solid lightgray;
+    width: 85%;
 }
 
 /*ENTER PAGE*/
@@ -338,6 +349,15 @@ li{
     z-index: 99999;
     max-width: 100vw;
     margin-top: 5%;
+}
+.header-wrapper a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.header-wrapper a h2{
+    color: #2846F6
 }
 button{
     display: none;
@@ -422,7 +442,6 @@ button{
 
 
 /*BIO CV  */
-
 .bio{
     display: flex;
     flex-direction: column;
@@ -432,7 +451,7 @@ button{
 }
 
 .bio-img-container{
-    height: 30vh;
+    height: 50vh;
     display: flex;
     justify-content: right;
 
@@ -533,6 +552,9 @@ button{
     display: flex;
     flex-direction:column;
 }
+.doula-section-subtitle{
+    text-decoration: underline;
+}
 /* DOULA ABOUT */
 .doula-about-details{
     height: auto;
@@ -541,6 +563,9 @@ button{
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
+}
+.doula-about-details h1{
+    padding-bottom: 1.25em;
 }
 .doula-about-details h2{
     padding-bottom: 1.75em;
@@ -557,7 +582,7 @@ button{
 .doula-image{
     width: 40%;
     height: auto;
-    padding-bottom: 1.75em;
+    /* padding-bottom: 1.75rem; */
 }
 .doula-services-options{
     height: auto;
@@ -664,8 +689,11 @@ button{
     padding-top:10%;
 }
 .doula-testamonial{
-    height: 20%;
-    width: 50%;
+    height: auto; 
+    /* width: 20em;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid blue; */
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
 }

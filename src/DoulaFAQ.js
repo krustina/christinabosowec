@@ -22,7 +22,7 @@ const FAQ = [
     {
         key: 4,
         question: 'What are the benefits of a Doula?',
-        answer: "Research has shown that non-judgmental, emotional and practical support from early pregnancy and onward, and continuous labour support during birth, can help to create a more satisfying birth experience with less need for medical interventions. A positive birth experience can help to  build confidence in new parents and ease their transition into parenthood, This results in healthier outcomes for parents and babies. Today many doulas now reach beyond birth and extend their support to people of all pregnancy outcomes including: miscarriage, a planned abortion or termination, stillbirth, surrogacy or adoption. Studies show that support during these times can help with the individual's overall satisfaction, emotional state and encourage a sense of personal empowerment."
+        answer: "Research has shown that non-judgmental, emotional and practical support from early pregnancy and onward, and continuous labour support during birth, can help to create a more satisfying birth experience with less need for medical interventions. A positive birth experience can help to  build confidence in new parents and ease their transition into parenthood. This results in healthier outcomes for parents and babies. Today many doulas now reach beyond birth and extend their support to people of all pregnancy outcomes including: miscarriage, a planned abortion or termination, stillbirth, surrogacy or adoption. Studies show that support during these times can help with the individual's overall satisfaction, emotional state and encourage a sense of personal empowerment."
     }
 ]
 
@@ -33,7 +33,7 @@ class DoulaFAQ extends Component {
             <div className='main-container-2'>
                 <NavBarDoula />
                 <div className='doula-content-container'>
-                    <h1>F.A.Q</h1>
+                    <h1 className='doula-section-subtitle'>F.A.Q</h1>
                     <div className='doula-faq-main-container'>
                         {FAQ.map((question, i) =>
                             <div className='doula-faq-sub-container'>

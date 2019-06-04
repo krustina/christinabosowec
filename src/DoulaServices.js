@@ -107,10 +107,10 @@ class DoulaServices extends Component {
     render() {
 
         return (
-            <div className='main-container'>
+            <div className='main-container-2'>
                 <NavBarDoula />
                 <div className='doula-content-container'>
-                    <h1>Services</h1>
+                    <h1 className='doula-section-subtitle'>Services</h1>
                     <div className='doula-services-main-container'>
                         <img className='doula-image'></img>
                         <div className='doula-services-options'>

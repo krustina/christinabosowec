@@ -5,13 +5,13 @@ import AppWrapper from './AppWrapper.js'
 
 class App extends Component {
     render() {
-        return(
+        return (
             <div className="app-wrapper">
                 <AppWrapper>
                     {this.props.children}
                 </AppWrapper>
             </div>
-            )
+        )
     }
 }
 
