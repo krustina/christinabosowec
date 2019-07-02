@@ -33,7 +33,7 @@ class DoulaFAQ extends Component {
             <div className='main-container-2'>
                 <NavBarDoula />
                 <div className='doula-content-container'>
-                    <h1 className='doula-section-subtitle'>F.A.Q</h1>
+                    {/* <h1 className='doula-section-subtitle'>F.A.Q</h1> */}
                     <div className='doula-faq-main-container'>
                         {FAQ.map((question, i) =>
                             <div className='doula-faq-sub-container'>

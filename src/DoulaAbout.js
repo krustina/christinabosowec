@@ -14,7 +14,10 @@ class DoulaAbout extends Component {
                 <div className='doula-content-container'>
                     <h1 className='doula-section-subtitle'>About</h1>
                     <div className='doula-services-main-container'>
-                        <img className='doula-image'></img>
+                        <div className='doula-image-container'>
+                            <img className='doula-image'src={require('./images/bio.jpg')}></img>
+                        </div>
+                        
                         <div className='doula-about-details'>
                             <div>
                                 <h2>

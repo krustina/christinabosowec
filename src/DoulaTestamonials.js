@@ -23,7 +23,7 @@ class DoulaTestamonials extends Component {
             <div className='main-container-2'>
                 <NavBarDoula />
                 <div className='doula-content-container'>
-                    <h1 className='doula-section-subtitle'>Testamonials</h1>
+                    {/* <h1 className='doula-section-subtitle'>Testamonials</h1> */}
                     <div className='doula-faq-main-container'>
                         {Testamonials.map((testamony, i) =>
                             <div className='doula-faq-sub-container'>
@@ -36,20 +36,6 @@ class DoulaTestamonials extends Component {
                         )}
                     </div>
                 </div>
-                {/* <div className='doula-content-container'>
-                    <h1 className='doula-section-subtitle'>Testamonials</h1>
-                    <div className='doula-testamonial-main-container'>
-                        {Testamonials.map((testamony, i) =>
-                            <div className='doula-testamonial'>
-                                <h2>"{testamony.testamonial}"</h2>
-                                <h1>-{testamony.name}</h1>
-                            </div>
-                        )}
-                    </div>
-                    <div className='question-marks'>
-                            
-                    </div>
-                </div> */}
             </div>
 
         );

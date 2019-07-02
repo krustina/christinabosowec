@@ -13,7 +13,7 @@ class DoulaServicesDropdown extends Component {
             servicedesc: this.props.service.servicedesc,
             package1title: this.props.service.package1title,
             package1price: this.props.service.package1price,
-            package1pricedetails:this.props.service.package1pricedetails,
+            package1pricedetails: this.props.service.package1pricedetails,
             package1desc: this.props.service.package1desc,
             package2title: this.props.service.package2title,
             package2price: this.props.service.package2price,
@@ -40,65 +40,58 @@ class DoulaServicesDropdown extends Component {
     render() {
         if (this.state.dropdown === false) {
             return (
-                <div className='doula-service-container'>
+                <div className='doula-services-sub-container'>
                     <div className='doula-service'>
-                        <div className='doula-dropdown'>
-                            <button className='doula-dropdown-button' onClick={this.handleDropdown.bind(this)} >
-                                <h1>+</h1>
-                            </button>
+                        <h1>{this.state.servicetitle}</h1>
 
-                            <a className='doula-service-title' onClick={this.handleDropdown.bind(this)}>
-                                <h1>{this.state.servicetitle}</h1>
-                            </a>
-
-                        </div>
+                        <h2>{this.state.servicedesc}</h2>
+                        <a onClick={this.handleDropdown.bind(this)}>
+                            <h2>See package details +</h2>
+                        </a>
                     </div>
+                    <img className='curved-line' src={require('./images/curve.png')} />
                 </div>
-            );
+            )
         }
         if (this.state.dropdown === true) {
             return (
-                <div className='doula-service-container'>
+                <div className='doula-services-sub-container'>
                     <div className='doula-service'>
-                        <div className='doula-dropdown'>
-                            <button className='doula-dropdown-button' onClick={this.handleDropdown.bind(this)} >
-                                <h1>-</h1>
-                            </button>
-                            <a className='doula-service-title' onClick={this.handleDropdown.bind(this)}>
-                                <h1>{this.state.servicetitle}</h1>
-                            </a>
-                        </div>
-                        <div className='doula-service-details'>
-                            <h2>{this.state.servicedesc}</h2>
-                        </div>
+                        <h1>{this.state.servicetitle}</h1>
+
+                        <h2>{this.state.servicedesc}</h2>
+                        <a onClick={this.handleDropdown.bind(this)}>
+                            <h2>Hide package details +</h2>
+                        </a>
                         <div className='doula-service-details'>
                             <div className='doula-package'>
                                 <h2><b>{this.state.package1title}&nbsp;{this.state.package1price}</b></h2>
                                 <ul>
-                                    {this.state.package1desc.map((desc, i)=>
-                                        <li key={i}>{desc}</li>)}    
+                                    {this.state.package1desc.map((desc, i) =>
+                                        <li key={i}>{desc}</li>)}
                                 </ul>
                                 <ul>
-                                    {this.state.package1pricedetails.map((price, i)=>
-                                        <li key={i}>{price}</li>)}    
+                                    {this.state.package1pricedetails.map((price, i) =>
+                                        <li key={i}>{price}</li>)}
                                 </ul>
                             </div>
                             <div className='doula-package'>
                                 <h2><b>{this.state.package2title}&nbsp;{this.state.package2price}</b></h2>
                                 <ul>
-                                    {this.state.package2desc.map((desc, i)=>
-                                        <li key={i}>{desc}</li>)}    
+                                    {this.state.package2desc.map((desc, i) =>
+                                        <li key={i}>{desc}</li>)}
                                 </ul>
                                 <ul>
-                                    {this.state.package2pricedetails.map((price, i)=>
-                                        <li key={i}>{price}</li>)}    
+                                    {this.state.package2pricedetails.map((price, i) =>
+                                        <li key={i}>{price}</li>)}
                                 </ul>
                             </div>
-                            
+
                         </div>
                     </div>
-                </div>
-            );
+                    <img className='curved-line' src={require('./images/curve.png')} />
+                </div >
+            )
         }
     }
 }

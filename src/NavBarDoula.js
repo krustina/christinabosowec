@@ -29,14 +29,16 @@ class NavBarDoula extends Component {
         if (this.state.dropdown === false) {
             return (
                 <div className="toolbar-container">
+                    {/* <Link to="/">
+                        <div className="logo-float"><img src={require("./images/tina logo thin2_outline.png")}/></div>
+                    </Link> */}
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}>
-                            <h1 className="link-home">CHRISTINA BOSOWEC</h1>
-                            <h2><i>~ Full-Spectrum Doula Care ~</i></h2>
-                            
+                                <h1 className="link-home">CHRISTINA BOSOWEC</h1>
+                                <h2><i>~ Full-Spectrum Doula Care ~</i></h2>
                             </Link>
-                            
+
                             <button className="dropdown" onClick={this.handleDropdown.bind(this)} >
                                 <img className='mobile-toolbar' src={require("./images/hamburger.png")} />
                             </button>
@@ -69,10 +71,12 @@ class NavBarDoula extends Component {
         if (this.state.dropdown === true) {
             return (
                 <div className="toolbar-container">
+                    <Link to="/">
+                        <div className="logo-float"><img src={require("./images/tina logo thin2_outline.png")} /></div>
+                    </Link>
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
-
 
                             <button className="dropdown" onClick={this.handleDropdown.bind(this)} >
 
