@@ -40,7 +40,7 @@ const portfolio = [
         key: 6,
         position: 'p6',
         link: 'ground-ing',
-        source: './images/work_icons/3_ground-ing.jpg'
+        source: './images/work_icons/13_ground ing_edit.JPG'
     }
 ]
 

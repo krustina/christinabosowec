@@ -13,7 +13,7 @@ class DoulaContact extends Component {
                     <div className='doula-contact'>
                         <img src={require("./images/tina logo thin2.png")} className='doula-logo'></img>
                         <div>
-                            <h2><a href='mailto:christina.a.bosowec@gmail.com?subject=Hello!'>christina.a.bosowec@gmail.com</a></h2>
+                            <h2><a href='mailto:contact.christinabosowec@gmail.com?subject=Hello!'>contact.christinabosowec@gmail.com</a></h2>
                         </div>
                     </div>
 

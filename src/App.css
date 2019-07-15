@@ -206,11 +206,10 @@ p{
     font-size: .75rem;
 }
 li{
-    /* font-size: 3.5vw; */
     list-style: none;
     font-size: 0.9rem;
     font-family: 'Courier New';
-    margin: 2% 0 2% 5%;
+    margin: 2% 0 5% 5%;
 }
 .back-arrow{
     font-size: 2em;
@@ -234,7 +233,7 @@ li{
 }
 .content-container{
     flex: 1;
-    padding-top: 5%;
+    margin-top: 2.5rem;
     width:100%;
     height: auto;
     display: flex;
@@ -251,22 +250,6 @@ li{
     width:100%;
     height: 100%;
     justify-content: center;
-}
-::-webkit-scrollbar
-{
-    width: 0; 
-    height: 2vh;
-}
-
-::-webkit-scrollbar-track
-{
-    background: rgba(255, 255, 255);
-}
-
-::-webkit-scrollbar-thumb
-{
-    background:rgba(255, 255, 255);
-    border: 1px solid #FF7CD5;
 }
 .footer{
     display: flex;
@@ -335,19 +318,7 @@ li{
 }
 
 /*NavBar*/
-/* .logo-float{
-    position: fixed;
-    right: 1em;
-    top: 1em;
-    height: 5em;
-    width: 5em;
-}
-.logo-float img{
-    height: 100%;
-    width: auto;
-    border: 1px blue dotted;
-    padding: 0.5em;
-} */
+
 .toolbar-container{
     display: flex;
     flex-direction: column;
@@ -383,7 +354,6 @@ button{
     -webkit-text-stroke: 1px #2846F6;
     font-size: 1.5em;
     color: transparent;
-    /* padding-left: 5%; for horizontal*/
     cursor: pointer;
     height: auto;
     text-align: center;
@@ -394,7 +364,6 @@ button{
     align-items: center;
     color: black;
     width: 50%; 
-    /* width:19em; */
     padding: 1% 1% 0% 1%;
 }
 .toolbar-option{
@@ -429,8 +398,6 @@ button{
 }
 .work-icon a img{
     width: auto;
-    /* object-fit: scale-down; */
-    /* height: 100%; */
 }
 .p1{
     height: 100%;
@@ -448,12 +415,13 @@ button{
     height: 60%;
 }
 .p6{
-    height: 100%;
+    height: 50%;
+    margin-bottom: 65%;
 }
 
 .work-icon a img:hover{
-     -webkit-filter: drop-shadow(5px 5px 5px #FF7CD5); 
-    filter: drop-shadow(5px 5px 5px #FF7CD5);
+     -webkit-filter: drop-shadow(8px 8px 8px #FF7CD5); 
+    filter: drop-shadow(8px 8px 8px #FF7CD5);
     cursor: pointer;
 }   
 
@@ -474,12 +442,9 @@ button{
 
 }
 .bio-img-container img{
-     /* -webkit-filter: drop-shadow(5px 5px 5px #FF7CD5); 
-    filter: drop-shadow(5px 5px 5px #FF7CD5); */
     max-height: 100%;
     height: 100%;
     width: auto;
-    /* max-width: 100%; */
 }
 .bio-text-container{
     padding-top: 10%;
@@ -490,18 +455,15 @@ button{
 
 /*CONTACT*/
 .contact-container{
-    /* height: 100%; */
     height: 70vh;
     width: 100%;
     display: flex;
     flex-direction:column;
-    /* justify-content: center; */
     align-items: center;
     padding-top: 10%;
 }
 .contact{
     width: 50%;
-    /* height: 20%; */
     height: 10em;
     display: flex;
     flex-direction:column;
@@ -518,12 +480,11 @@ button{
 /* SHOW */
 .show-content-container{
     width: 95%;
-    /* height: 90vh; */
     flex: 1;
     padding-top: 5%;
     overflow: hidden;
     display: flex;
-    /* padding-top: 20vh; */
+    margin-top: 2.5rem;
 }
 .show-title{
     width: 25%;
@@ -538,19 +499,18 @@ button{
 .img-wrapper{
     height: 100%;
     width: 70%;
-    /* margin: auto; */
     display: inline;
 }
 .img-wrapper img{
     max-height:100%;
-    height:auto; /* CHANGE */
+    height:auto; 
     width: auto;
     max-width:200%;
     margin-right: 15%;
     overflow-x: hidden;
 }
 .img-wrapper iframe{
-    height:100%; /* CHANGE */
+    height:100%;
 }
 .show-images ul{
     height: 100%;
@@ -589,10 +549,35 @@ button{
 .doula-image-container{
     width: 40%;
     height: auto;
+    padding-right: 5%;
 }
 .doula-image{
     width: 100%;
     height: auto;
+}
+.doula-training-container{
+    width: 100%;
+}
+.doula-dropdown-button{
+    display: block;
+    outline: none;
+    border: none;
+    text-align: left;
+    width: 5%;
+}
+.doula-training{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.doula-training-title{
+   padding-left: 1rem;
+}
+.doula-training-dropdown{
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 /* DOULA SERVICES */
@@ -605,10 +590,10 @@ button{
     display: flex;
     align-items: flex-end;
 }
-.doula-services-sub-container:nth-child(2n){
+.doula-services-sub-container:nth-child(odd){
     flex-direction: row-reverse;
 }
-.doula-services-sub-container:nth-child(even) .curved-line{
+.doula-services-sub-container:nth-child(odd) .curved-line{
     -moz-transform: scale(-1, 1);
     -o-transform: scale(-1, -1);
     -webkit-transform: scale(-1, 1);
@@ -620,10 +605,12 @@ button{
 }
 .doula-service h2{
     margin-top: 1.2rem;
-    margin-right: 10%;
+    padding-right: 5%;
+    
 }
 .doula-service h1{
     color: #2846F6;
+    font-size: 1.75em
 }
 .doula-service a h2:hover{
     text-decoration: underline;
@@ -636,8 +623,7 @@ button{
 .doula-service{
     height: auto;
     width: 50%;
-    margin-top: 1.75rem;
-    margin-bottom: 1.75rem;
+    margin: 1.75rem;
 }
 .doula-package{
     margin-top: 8%;
@@ -706,10 +692,6 @@ button{
 }
 .doula-testamonial{
     height: auto; 
-    /* width: 20em;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid blue; */
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
 }
@@ -730,9 +712,6 @@ button{
     height: 12em;
 }
 
-
-
-
 /* MOBILE STYLES */
 @media only screen and (max-width: 1050px) and (min-width: 736px) {  
     /* .toolbar-options{
@@ -740,6 +719,9 @@ button{
     } */
 }
 @media only screen and (max-width: 735px) and (min-width: 0px) {
+    h2{
+        font-size: 1rem;
+    }
     .link h2{
         font-size: 2.25vh !important;
     }                                                                                                                                    
@@ -747,7 +729,6 @@ button{
         overflow: hidden;
     }
     .content-container {
-        /* width: 95%; */
         margin-bottom: 5%;
         overflow: scroll;
         overflow-y: scroll;
@@ -760,12 +741,17 @@ button{
         justify-content: space-around;
         height: 25vh;
     }
+    .toolbar-container{
+        margin-top: 5%;
+    }
     .header-wrapper{
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        /* position: fixed; */
+    }
+    .header-wrapper a{
+        max-width: 50%;
     }
     .toolbar-container{
         width: 100%;
@@ -797,10 +783,8 @@ button{
         margin-bottom: 5%;
     }
     .link-home{
-        /* font-size: 3.5vh; */
         font-size: 1.5em;
         text-align: left;
-        padding-left: 5%;
     }
     .mobile-toolbar{
         display: block;
@@ -830,6 +814,8 @@ button{
     }
     .doula-image-container{
         width: auto;
+        padding-right: 0;
+        padding-top: 5%;
     }
     .doula-about-details {
         width: auto;
@@ -845,16 +831,16 @@ button{
     }
     .doula-faq-sub-container .doula-faq h2:nth-child(2n) {
         margin-right: 0;
+        text-align: left;
     }
     .doula-faq-sub-container:nth-child(2n){
         margin-left:1.75em;
         flex-direction: column;
-        text-align: right;
+        /* text-align: right; */
     }
     .curved-line {
         height: 5rem;
     }
-
 }
 @media only screen and (max-width : 768px) {
     .two-columns{
@@ -890,6 +876,7 @@ button{
         align-items: center;
         overflow: scroll;
         -webkit-overflow-scrolling: touch;
+        margin-top:1rem;
     }
     .show-title{
         width: 100%;
@@ -900,7 +887,6 @@ button{
     .show-images{
         width: 100%;
         height: initial;
-        /* overflow: scroll; */
     }
     .show-images ul{
         height: 100%;
@@ -915,16 +901,19 @@ button{
     }
     .img-wrapper{
         width: 100%;
+        height: auto;
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin-bottom: 5%;
+        margin-left: 0;
     } 
     .img-wrapper img{
-        max-height: 100%;
+        /* max-height: 100%;
         height: auto;
-        /* width: auto !important; */
-        max-width: 100vw;
+        max-width: 100vw; */
+        width: 100%;
+        height: auto;
         margin-right: 0%; 
     }
     .video{

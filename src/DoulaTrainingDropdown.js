@@ -42,14 +42,14 @@ class DoulaServicesDropdown extends Component {
     render() {
         if (this.state.dropdown === false) {
             return (
-                <div className='doula-service-container'>
-                    <div className='doula-service'>
-                        <div className='doula-dropdown'>
+                <div className='doula-training-container'>
+                    <div className='doula-training'>
+                        <div className='doula-training-dropdown'>
                             <button className='doula-dropdown-button' onClick={this.handleDropdown.bind(this)} >
                                 <h1>+</h1>
                             </button>
 
-                            <a className='doula-service-title' onClick={this.handleDropdown.bind(this)}>
+                            <a className='doula-training-title' onClick={this.handleDropdown.bind(this)}>
                                 <h1>Training</h1>
                             </a>
 
@@ -60,17 +60,17 @@ class DoulaServicesDropdown extends Component {
         }
         if (this.state.dropdown === true) {
             return (
-                <div className='doula-service-container'>
-                    <div className='doula-service'>
-                        <div className='doula-dropdown'>
+                <div className='doula-training-container'>
+                    <div className='doula-training'>
+                        <div className='doula-training-dropdown'>
                             <button className='doula-dropdown-button' onClick={this.handleDropdown.bind(this)} >
                                 <h1>-</h1>
                             </button>
-                            <a className='doula-service-title' onClick={this.handleDropdown.bind(this)}>
+                            <a className='doula-training-title' onClick={this.handleDropdown.bind(this)}>
                                 <h1>Training</h1>
                             </a>
                         </div>
-                        <ul className='doula-service-details'>
+                        <ul className='doula-training-details'>
                             {skills.map((skill, i) =>
                                     <li key={i} skill={skill}>{skill}</li>
                                     )}
