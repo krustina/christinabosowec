@@ -17,19 +17,24 @@ const Testamonials = [
 ]
 
 class DoulaTestamonials extends Component {
+    componentDidMount(){
+        window.scrollTo(0, 0);
+    }
     render() {
-
         return (
             <div className='main-container-2'>
                 <NavBarDoula />
                 <div className='doula-content-container'>
+                    <a className="testamonial-floater floater" href='mailto:contact.christinabosowec@gmail.com?subject=Hello!'>
+                        <h2>Submit a testamonial <br /><br />:~)</h2>
+                    </a>
                     {/* <h1 className='doula-section-subtitle'>Testamonials</h1> */}
-                    <div className='doula-faq-main-container'>
+                    <div className='doula-testamonial-main-container'>
                         {Testamonials.map((testamony, i) =>
-                            <div className='doula-faq-sub-container'>
-                                <div className='doula-faq'>
+                            <div className='doula-testamonial-sub-container'>
+                                <div className='doula-testamonial'>
                                     <h2><i>"{testamony.testamonial}"</i></h2>
-                                    <h2>-&nbsp;{testamony.name}</h2>
+                                    <h1>{testamony.name}</h1>
                                 </div>
                                 <img className='curved-line' src={require('./images/curve.png')} />
                             </div>

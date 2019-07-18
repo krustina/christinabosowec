@@ -4,12 +4,15 @@ import NavBarDoula from './NavBarDoula.js';
 import './App.css';
 
 class DoulaContact extends Component {
+    componentDidMount(){
+        window.scrollTo(0, 0);
+    }
     render() {
 
         return (
             <div className='main-container-2'>
                 <NavBarDoula />
-                <div className='content-container'>
+                <div className='doula-content-container'>
                     <div className='doula-contact'>
                         <img src={require("./images/tina logo thin2.png")} className='doula-logo'></img>
                         <div>

@@ -27,8 +27,10 @@ const FAQ = [
 ]
 
 class DoulaFAQ extends Component {
+    componentDidMount(){
+        window.scrollTo(0, 0);
+    }
     render() {
-
         return (
             <div className='main-container-2'>
                 <NavBarDoula />

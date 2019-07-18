@@ -4,6 +4,9 @@ import { Router, Route, Link } from 'react-router';
 import './App.css';
 
 class Landing extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
 
     return (

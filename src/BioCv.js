@@ -4,6 +4,9 @@ import NavBar from './NavBar.js';
 import './App.css';
 
 class BioCv extends Component {
+    componentDidMount(){
+        window.scrollTo(0, 0);
+    }
     render() {
 
         return (
