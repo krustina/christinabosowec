@@ -72,7 +72,7 @@ class DoulaServicesDropdown extends Component {
                         </div>
                         <ul className='doula-training-details'>
                             {skills.map((skill, i) =>
-                                    <li key={i} skill={skill}>{skill}</li>
+                                    <li key={i} skill={this.skill}>{skill}</li>
                                     )}
                         </ul>
                     </div>

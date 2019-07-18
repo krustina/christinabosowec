@@ -115,11 +115,15 @@ class DoulaServices extends Component {
                             <DoulaServicesDropdown key={i} service={service} />
                         )}
                     </div>
+                    <div className="floater">
+                        <h2>How can I support you best?
+                            <br/>
+                            <br/>
+                            <Link to="doula_contact">Contact me!</Link>
+                        </h2>
+                    </div>
                     <h2 className='fine-print'>
-                        <b>Please contact me on how I can support you best.</b>
-                        <br />
-                        <br />
-                        * All prices are inclusive of tax. Sliding scale rates are also available.
+                        * All prices are inclusive of tax. Sliding scale rates are also available
                     </h2>
                 </div>
             </div>

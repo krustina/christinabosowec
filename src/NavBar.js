@@ -5,11 +5,10 @@ class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            dropdown: false
+            dropdown: false  
         };
-        this.handleDropdown.bind(this)
+        this.handleDropdown.bind(this);
     }
-
     handleDropdown(e) {
         e.preventDefault()
         if (this.state.dropdown === false) {
@@ -17,15 +16,12 @@ class NavBar extends Component {
                 dropdown: true
             })
         }
-
         if (this.state.dropdown === true) {
             this.setState({
                 dropdown: false
             })
-
         }
     }
-
     render() {
         if (this.state.dropdown === false) {
             return (
@@ -33,31 +29,25 @@ class NavBar extends Component {
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
-                            {/* <img className="link-home" src={require('./images/nameIcon.png')}/> */}
-
                             <button className="dropdown" onClick={this.handleDropdown.bind(this)} >
                                 <img className='mobile-toolbar' src={require("./images/hamburger.png")} />
                             </button>
                         </div>
                     </div>
                     <div className="toolbar-options toolbar-options-mobile">
-                        <Link to="work" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="work" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>WORK</h2>
                         </Link>
                         
-                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="bio" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>BIO</h2>
                         </Link>
                         
-                        <Link to="contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="contact" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>CONTACT</h2>
                         </Link>
                     </div>
                 </div>
-
-
-
-
             );
         }
         if (this.state.dropdown === true) {
@@ -75,15 +65,15 @@ class NavBar extends Component {
                         </div>
                     </div>
                     <div className="toolbar-options">
-                        <Link to="work" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="work" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>WORK</h2>
                         </Link>
 
-                        <Link to="bio" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="bio" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>BIO</h2>
                         </Link>
 
-                        <Link to="contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="contact" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>CONTACT</h2>
                         </Link>
                     </div>

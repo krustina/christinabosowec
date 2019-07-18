@@ -377,9 +377,13 @@ button{
 .toolbar-option:hover {
     text-decoration: underline !important;
     cursor: pointer !important;
+    color: blue;
 }
 .mobile-toolbar{
     display:none;
+}
+.active-toolbar{
+    color: blue;
 }
 
 /*WORK*/
@@ -455,7 +459,7 @@ button{
 
 /*CONTACT*/
 .contact-container{
-    height: 70vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction:column;
@@ -581,6 +585,28 @@ button{
 }
 
 /* DOULA SERVICES */
+.floater{
+    position: absolute;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+    border-radius: 50%;
+    height: 7em;
+    width: 7em;
+    top: 3em;
+    left: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.floater:hover{
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.5)); 
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.5));
+    cursor: pointer;
+    text-decoration: none;
+}
 .doula-services-main-container{
     display: flex;
     height: 100%;
@@ -588,7 +614,7 @@ button{
 }
 .doula-services-sub-container{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 .doula-services-sub-container:nth-child(odd){
     flex-direction: row-reverse;
@@ -801,6 +827,11 @@ button{
     .header-wrapper h2{
         display: none;
     }
+    /* ABOUT */
+    .doula-about-details {
+        width: auto;
+        padding-top: 1.75em;
+    }
     /* LANDING */
     .website-selection-container {
         width: 75%;
@@ -809,6 +840,16 @@ button{
         max-height: 40vh;
     }
     /* DOULA SERVICES */
+    .floater{
+        height: 9em;
+        width: 9em;
+        position: initial;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
     .doula-services-main-container{
         flex-direction: column;
     }
@@ -817,9 +858,25 @@ button{
         padding-right: 0;
         padding-top: 5%;
     }
-    .doula-about-details {
-        width: auto;
-        padding-top: 1.75em;
+    .doula-services-sub-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .doula-service{
+        width: 100%;
+    }
+    .doula-service h1:nth-child(even) {
+        margin-left: 0;
+        text-align: right;
+    }
+    .doula-services-sub-container .doula-service h2:nth-child(2n) {
+        margin-right: 0;
+    }
+    .doula-services-sub-container:nth-child(2n){
+        margin-right:1.75em;
+    }
+    .doula-services-sub-container:nth-child(odd) {
+        flex-direction: inherit;
     }
     /* DOULA FAQ */
     .doula-faq-sub-container {
@@ -863,6 +920,10 @@ button{
     }
     .bio-text-container{
         text-align: center;
+        padding: 5% 10% 0% 10%;
+    }
+    .bio-text-container h2{
+        text-align: left;
     }
     .cv{
         height: 65%;

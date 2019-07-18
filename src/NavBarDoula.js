@@ -29,9 +29,6 @@ class NavBarDoula extends Component {
         if (this.state.dropdown === false) {
             return (
                 <div className="toolbar-container">
-                    {/* <Link to="/">
-                        <div className="logo-float"><img src={require("./images/tina logo thin2_outline.png")}/></div>
-                    </Link> */}
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}>
@@ -45,23 +42,23 @@ class NavBarDoula extends Component {
                         </div>
                     </div>
                     <div className="toolbar-options toolbar-options-mobile">
-                        <Link to="doula_about" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_about" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>ABOUT</h2>
                         </Link>
 
-                        <Link to="doula_services" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_services" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>SERVICES</h2>
                         </Link>
 
-                        <Link to="doula_FAQ" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_FAQ" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>FAQ</h2>
                         </Link>
 
-                        <Link to="doula_testamonials" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_testamonials" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>TESTAMONIALS</h2>
                         </Link>
 
-                        <Link to="doula_contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_contact" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>CONTACT</h2>
                         </Link>
                     </div>
@@ -71,9 +68,9 @@ class NavBarDoula extends Component {
         if (this.state.dropdown === true) {
             return (
                 <div className="toolbar-container">
-                    <Link to="/">
+                    {/* <Link to="/">
                         <div className="logo-float"><img src={require("./images/tina logo thin2_outline.png")} /></div>
-                    </Link>
+                    </Link> */}
                     <div className="toolbar">
                         <div className="header-wrapper">
                             <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
@@ -85,23 +82,23 @@ class NavBarDoula extends Component {
                         </div>
                     </div>
                     <div className="toolbar-options">
-                        <Link to="doula_about" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_about" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>ABOUT</h2>
                         </Link>
 
-                        <Link to="doula_services" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_services" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>SERVICES</h2>
                         </Link>
 
-                        <Link to="doula_FAQ" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_FAQ" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>FAQ</h2>
                         </Link>
 
-                        <Link to="doula_testamonials" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_testamonials" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>TESTAMONIALS</h2>
                         </Link>
 
-                        <Link to="doula_contact" className="toolbar-option" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="doula_contact" className="toolbar-option" activeClassName="active-toolbar">
                             <h2>CONTACT</h2>
                         </Link>
                     </div>

@@ -61,7 +61,7 @@ class DoulaServicesDropdown extends Component {
 
                         <h2>{this.state.servicedesc}</h2>
                         <a onClick={this.handleDropdown.bind(this)}>
-                            <h2>Hide package details +</h2>
+                            <h2 className='active-toolbar'>Hide package details -</h2>
                         </a>
                         <div className='doula-service-details'>
                             <div className='doula-package'>
