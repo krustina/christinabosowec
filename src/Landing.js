@@ -16,12 +16,12 @@ class Landing extends Component {
           <div className="landing-container">
             <img src={require("./images/tina logo thin2.png")} className="home-image" />
             <div className="website-selection-container">
-              <Link to="doula_about">
-                <h3>Full Spectrum Doula Care</h3>
+              <Link to="doula_about" className='home-title'>
+                <h3>Full-Spectrum<br/> Doula Care</h3>
               </Link>
-              <h3>+</h3>
-              <Link to="work">
-                <h3>Artist</h3>
+              {/* <h3>+</h3> */}
+              <Link to="artist-landing" className='home-title'>
+                <h3>Artist<br/></h3>
               </Link>
             </div>
           </div>

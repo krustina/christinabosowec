@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Link, browserHistory, applyRouterMiddleware, IndexRoute } from 'react-router';
 import Landing from './Landing.js';
+import ArtistLanding from './ArtistLanding.js';
 import App from './App.js';
 
 import Work from './Work.js';
@@ -30,6 +31,7 @@ ReactDOM.render(
   >
     <Route path="/" component={App}></Route>
     <IndexRoute component={Landing} />
+    <Route path="artist-landing" component={ArtistLanding}/>
     <Route path="work" component={Work} />
     <Route path="bio" component={BioCv} />
     <Route path="contact" component={Contact} />

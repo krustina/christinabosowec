@@ -6,6 +6,12 @@ import './App.css';
 
 const portfolio = [
     {
+        key: 6,
+        position: 'p6',
+        link: 'ground-ing',
+        source: './images/work_icons/13_ground ing_edit.JPG'
+    },
+    {
         key: 1,
         position: 'p1',
         link: 'bedOfRoses',
@@ -35,12 +41,6 @@ const portfolio = [
         position: 'p5',
         link: 'spongeMeOff',
         source: './images/work_icons/spongemeoff.gif'
-    },
-    {
-        key: 6,
-        position: 'p6',
-        link: 'ground-ing',
-        source: './images/work_icons/13_ground ing_edit.JPG'
     }
 ]
 

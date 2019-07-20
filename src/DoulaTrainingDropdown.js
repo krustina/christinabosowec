@@ -46,11 +46,11 @@ class DoulaServicesDropdown extends Component {
                     <div className='doula-training'>
                         <div className='doula-training-dropdown'>
                             <button className='doula-dropdown-button' onClick={this.handleDropdown.bind(this)} >
-                                <h1>+</h1>
+                                <h2>+</h2>
                             </button>
 
                             <a className='doula-training-title' onClick={this.handleDropdown.bind(this)}>
-                                <h1>Training</h1>
+                                <h2>Training</h2>
                             </a>
 
                         </div>
@@ -64,10 +64,10 @@ class DoulaServicesDropdown extends Component {
                     <div className='doula-training'>
                         <div className='doula-training-dropdown'>
                             <button className='doula-dropdown-button' onClick={this.handleDropdown.bind(this)} >
-                                <h1>-</h1>
+                                <h2>-</h2>
                             </button>
                             <a className='doula-training-title' onClick={this.handleDropdown.bind(this)}>
-                                <h1>Training</h1>
+                                <h2>Training</h2>
                             </a>
                         </div>
                         <ul className='doula-training-details'>

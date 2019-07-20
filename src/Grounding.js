@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { Router, Route, Link } from 'react-router';
-// import Swiper from 'react-id-swiper';
 import NavBar from './NavBar.js';
 import './App.css';
-
-// TODO: open links in new tab
 
 var images = [
     {
@@ -86,7 +83,7 @@ class Grounding extends Component {
                         <br/>
                         <h2>In collaboration with Mil</h2>
                         <br/>
-                        <h2>Photo Credit: Megan Mericle</h2>
+                        <h2>Photo Credit: Megan Mericle + Michelle Young</h2>
                     </div>
                     <div className='show-images'>
                         <ul>

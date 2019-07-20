@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Router, Route, Link } from 'react-router';
 import NavBarDoula from './NavBarDoula.js';
+import Footer from './Footer.js';
 import DoulaServicesDropdown from './DoulaServicesDropdown.js';
 import './App.css';
 
@@ -8,9 +9,9 @@ const services = [
     {
         key: 1,
         servicetitle: "Birth Support",
-        servicedesc: "Birth support provides emotional and non-medical support while navigating the stages of pregnancy, birth and postpartum. Evidence based information about pregnancy, the birth process, and postpartum period is shared to help the birthing person make informed decisions for themselves and their baby. The birthing person’s needs, hopes and priorities are also a focus along with any concerns or fears they may have around birth. Birth support also includes:",
+        servicedesc: "As a birth doula, I provide emotional and practical support as you navigate pregnancy, birth and the postpartum period. Throughout each stage of this process, I share evidence-based information to help the birthing person make informed decisions for themselves and their baby. I focus on the birthing person’s needs, hopes and priorities along with any concerns or fears they may have around birth.",
         package1title: "Birth Package -",
-        package1price: " $950",
+        package1price: " $850",
         package1pricedetails: [""],
         package1desc: [
             "Up to three 2 hour prenatal visits to prepare for birth",
@@ -20,7 +21,7 @@ const services = [
             "One postpartum visit after birth"
         ],
         package2title: "Birth and Postpartum Package -",
-        package2price: " $1200",
+        package2price: " $1100",
         package2pricedetails: [""],
         package2desc: [
             "Up to three 2 hour prenatal visits to prepare for birth",
@@ -33,73 +34,58 @@ const services = [
     {
         key: 2,
         servicetitle: "Antepartum Support",
-        servicedesc: "Emotional and practical support is given to a pregnant person who is on bed rest and in need of extra support during their pregnancy. Support may include household tasks like light cleaning and laundry, cooking and meal planning or sibling care. It can also include things like running a warm bath, tucking you into bed along with:",
-        package1title: "",
+        servicedesc: "Antepartum support includes emotional and practical support for a pregnant person on bed rest who may need additional help during this stage of their pregnancy. The support that I offer includes light housework (such as laundry), cooking and meal planning or sibling care. It can also include things like running a warm bath or tucking you into bed.",
+        package1title: "Antepartum support is $35/hour with a minimum 3 hours per visit or:",
         package1price: "",
         package1pricedetails: [""],
         package1desc: [
-            "Phone, text and email support",
-            "Emotional and informational support",
-            "Cooking, light house work and errands",
-            "Sibling and pet care",
+            "6 hours for $174",
+            "12 hours for $336",
+            "24 hours for $648"
         ],
         package2title: "",
         package2price: "",
-        package2pricedetails: [
-            "6 hours for $205",
-            "12 hours for $395",
-            "24 hours for $765",
-            "48 hours for $1390",
-        ],
+        package2pricedetails: [],
         package2desc: [
-            "Antepartum support is $35/hour with a minimum 3 hours per visit or:"
+            
         ]
     },
     {
         key: 3,
         servicetitle: "Postpartum Support",
-        servicedesc: "Families are deserving of support during the postpartum period to ensure that their transition into parenthood is as smooth as possible. Parents and family receive support and information on baby care basics and postpartum healing, plus the help of light housework, cooking of meals, baby holding, walking pets, or just filling in when the parent needs some rest. Support also includes:",
-        package1title: "",
+        servicedesc: "New parents and families deserve support during the postpartum period to make their transition into parenthood as smooth as possible. I offer support and information on baby care basics and postpartum healing, as well as help with light housework, cooking, baby-holding, pet care, or just filling in when the parent needs some rest.",
+        package1title: "Postpartum support is $30/ hour with a minimum 3 hours per visit or:",
         package1price: "",
-        package1pricedetails: [""],
+        package1pricedetails: [],
         package1desc: [
-            "Phone, text and email support",
-            "Emotional and physical support",
-            "Postpartum healing",
-            "Newborn care and infant feeding support",
-            "Sharing of community resources",
-            "Cooking, light house work and errands"
+            "6 hours for $174",
+            "12 hours for $336",
+            "24 hours for $648",
+            "36 hours for $936",
+            "48 hours for $1200"
         ],
-        package2title: "",
+        package2title: "Overnight support is $232 and includes:",
         package2price: "",
-        package2pricedetails: [
-            "6 hours for $205",
-            "12 hours for $395",
-            "24 hours for $765",
-        ],
+        package2pricedetails: [],
         package2desc: [
-            "Postpartum support is $35/hour with a minimum 3 hours per visit or:"
+            "8 hours of overnight support",
+            "Baby care while parent sleeps",
+            "Night time infant feeding support",
         ],
     },
     {
         key: 4,
-        servicetitle: "Abortion, Termination and Pregnancy Loss Support",
-        servicedesc: "Ending a pregnancy, whether chosen or not can be a difficult experience and is deserving of sensitive and compassionate care. Unconditional support is given to anyone considering an abortion, terminating a pregnancy or in the midst of a loss. Support is customized to the specific need of each individual and may include by not limited to:",
-        package1title: "",
+        servicetitle: "Pregnancy Loss and Termination Support",
+        servicedesc: "The end of a pregnancy can be a difficult experience. Regardless of the circumstances in which your pregnancy ends, you deserve compassionate care that meets your needs. I offer unconditional support to anyone who is in the midst of a loss or considering terminating a pregnancy. I approach pregnancy loss and termination support with sensitivity, understanding that some people who choose to end a pregnancy may also have feelings of loss or grief. As part of this support, I can provide information and resources, accompany you to appointments, assist in holistic healing or just be there to listen. Please contact me to discuss how I can support you best",
+        package1title: "* Pregnancy Loss and Termination support is free or pay what you can.",
         package1price: "",
         package1pricedetails: [""],
         package1desc: [
-            "Information and resources",
-            "Phone and text support",
-            "Accompaniment to and from appointments",
-            "Holistic healing",
-            "The planning of a ritual or ceremony,",
-            "or just being there to listen.",
         ],
         package2title: "",
         package2price: "",
         package2pricedetails: [""],
-        package2desc: ["* Pregnancy Loss and Termination support is free or pay what you can. "],
+        package2desc: [],
     }
 ]
 
@@ -112,6 +98,7 @@ class DoulaServices extends Component {
             <div className='main-container-2'>
                 <NavBarDoula />
                 <div className='doula-content-container'>
+                <h1 className='doula-section-subtitle'>Services</h1>
                     <div className='doula-services-main-container'>
                         {services.map((service, i) =>
                             <DoulaServicesDropdown key={i} service={service} />
@@ -128,6 +115,7 @@ class DoulaServices extends Component {
                         * All prices are inclusive of tax. Sliding scale rates are also available
                     </h2>
                 </div>
+                <Footer/>
             </div>
         )
     }
