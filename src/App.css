@@ -286,7 +286,7 @@ li{
     padding-top: 10%;
 }
 .website-selection-container a{
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -295,7 +295,7 @@ li{
     text-transform: lowercase;
 }
 .website-selection-container a h3{
-    width: 100%;
+    /* width: 100%; */
     font-size: 1.25rem;
 }
 /*  ARTIST ENTER PAGE */
@@ -474,6 +474,7 @@ i{
 }
 .bio-text-container{
     padding-top: 10%;
+    padding-bottom: 10%;
 }
 .bio-text-container h2{
     padding-top: 5%;
@@ -948,7 +949,7 @@ i{
     }
     /* LANDING */
     .website-selection-container {
-        width: 75%;
+        width: 100%;
     }
     /* .home-image{
         max-height: 40vh;

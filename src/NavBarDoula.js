@@ -55,7 +55,7 @@ class NavBarDoula extends Component {
                         </Link>
 
                         <Link to="doula_testamonials" className="toolbar-option" activeClassName="active-toolbar">
-                            <h2>TESTAMONIALS</h2>
+                            <h2>TESTIMONIALS</h2>
                         </Link>
 
                         <Link to="doula_contact" className="toolbar-option" activeClassName="active-toolbar">
@@ -95,7 +95,7 @@ class NavBarDoula extends Component {
                         </Link>
 
                         <Link to="doula_testamonials" className="toolbar-option" activeClassName="active-toolbar">
-                            <h2>TESTAMONIALS</h2>
+                            <h2>TESTIMONIALS</h2>
                         </Link>
 
                         <Link to="doula_contact" className="toolbar-option" activeClassName="active-toolbar">

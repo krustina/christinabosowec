@@ -31,9 +31,9 @@ class DoulaTestamonials extends Component {
             <div className='main-container-2'>
                 <NavBarDoula />
                 <div className='doula-content-container'>
-                    <h1 className='doula-section-subtitle'>Testamonials</h1>
+                    <h1 className='doula-section-subtitle'>Testimonials</h1>
                     <a className="testamonial-floater floater" href='mailto:contact.christinabosowec@gmail.com?subject=Hello!'>
-                        <h2>Submit a testamonial <br /><br />:~)</h2>
+                        <h2>Submit a testimonial <br /><br />:~)</h2>
                     </a>
                     <div className='doula-testamonial-main-container'>
                         {Testamonials.map((testamony, i) =>
