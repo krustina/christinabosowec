@@ -12,7 +12,7 @@ const FAQ = [
     {
         key: 1,
         question: 'What is a Doula?',
-        answer: 'A doula is someone who guides pregnant people through their pregnancy experiences while offering them the love and compassion they need. doulas are trained to provide emotional, physical and informational support.',
+        answer: 'A doula is someone who guides pregnant people through their pregnancy experiences while offering them the love and compassion they need. Doulas are trained to provide emotional, physical and informational support.',
     },
     {
         key: 2,
@@ -21,13 +21,13 @@ const FAQ = [
     },
     {
         key: 3,
-        question: 'What is a Full Spectrum Doula?',
-        answer: 'Although people often associate doulas with childbirth and parenting, some doulas - often called full spectrum doulas – provide support during all pregnancy outcomes. Full spectrum doula work is based on a deep understanding that people have many different experiences of pregnancy, and have similarly diverse needs for care and support. A full spectrum doula supports people whose pregnancies that end in abortion, miscarriage, stillbirth, or adoption, as well as those that end in birth and parenting.',
+        question: 'What is a Full-Spectrum Doula?',
+        answer: 'Although people often associate doulas with childbirth and parenting, some doulas - often called full-spectrum doulas – provide support during all pregnancy outcomes. Full-spectrum doula work is based on a deep understanding that people have many different experiences of pregnancy, and have similarly diverse needs for care and support. A full-spectrum doula supports people whose pregnancies that end in abortion, miscarriage, stillbirth, or adoption, as well as those that end in birth and parenting.',
     },
     {
         key: 4,
         question: 'What are the benefits of a Doula?',
-        answer: " has shown that non-judgmental, emotional and practical support from early pregnancy and onward, and continuous labour support during birth, can help to create a more satisfying birth experience with less need for medical interventions. A positive birth experience can help to  build confidence in new parents and ease their transition into parenthood. This results in healthier outcomes for parents and babies. today many doulas now reach beyond birth and extend their support to people of all pregnancy outcomes including: miscarriage, a planned abortion or termination, stillbirth, surrogacy or adoption. Studies show that support during these times can help with the individual's overall satisfaction, emotional state and encourage a sense of personal empowerment."
+        answer: " has shown that non-judgmental, emotional and practical support from early pregnancy and onward, and continuous labour support during birth, can help to create a more satisfying birth experience with less need for medical interventions. A positive birth experience can also help to build confidence in new parents and ease their transition into parenthood. This results in healthier outcomes for parents and babies. Today many doulas now reach beyond birth and extend their support to people of all pregnancy outcomes including: miscarriage, a planned abortion or termination, stillbirth, surrogacy or adoption. Studies show that support during all pregnancy outcomes can help with the individual's overall satisfaction, emotional state and encourage a sense of personal empowerment."
     }
 ]
 

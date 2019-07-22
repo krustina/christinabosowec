@@ -35,7 +35,7 @@ const services = [
         key: 2,
         servicetitle: "Antepartum Support",
         servicedesc: "Antepartum support includes emotional and practical support for a pregnant person on bed rest who may need additional help during this stage of their pregnancy. The support that I offer includes light housework (such as laundry), cooking and meal planning or sibling care. It can also include things like running a warm bath or tucking you into bed.",
-        package1title: "Antepartum support is $35/hour with a minimum 3 hours per visit or:",
+        package1title: "Antepartum support is $30/hour with a minimum 3 hours per visit or:",
         package1price: "",
         package1pricedetails: [""],
         package1desc: [
@@ -76,8 +76,8 @@ const services = [
     {
         key: 4,
         servicetitle: "Pregnancy Loss and Termination Support",
-        servicedesc: "The end of a pregnancy can be a difficult experience. Regardless of the circumstances in which your pregnancy ends, you deserve compassionate care that meets your needs. I offer unconditional support to anyone who is in the midst of a loss or considering terminating a pregnancy. I approach pregnancy loss and termination support with sensitivity, understanding that some people who choose to end a pregnancy may also have feelings of loss or grief. As part of this support, I can provide information and resources, accompany you to appointments, assist in holistic healing or just be there to listen. Please contact me to discuss how I can support you best",
-        package1title: "* Pregnancy Loss and Termination support is free or pay what you can.",
+        servicedesc: "The end of a pregnancy can be a difficult experience. Regardless of the circumstances in which your pregnancy ends, you deserve compassionate care that meets your needs. I offer unconditional support to anyone who is in the midst of a loss or considering terminating a pregnancy. I approach pregnancy loss and termination support with sensitivity, understanding that some people who choose to end a pregnancy may also have feelings of loss or grief. As part of this support, I can provide information and resources, accompany you to appointments, assist in holistic healing or just be there to listen. Please contact me to discuss how I can support you best.",
+        package1title: "* Pregnancy Loss and Termination support is $20/ hour or pay what you can.",
         package1price: "",
         package1pricedetails: [""],
         package1desc: [

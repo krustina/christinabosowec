@@ -19,9 +19,9 @@ class Landing extends Component {
               <Link to="doula_about" className='home-title'>
                 <h3>Full-Spectrum<br/> Doula Care</h3>
               </Link>
-              {/* <h3>+</h3> */}
+              <a className='home-title'><h3>+</h3></a>
               <Link to="artist-landing" className='home-title'>
-                <h3>Artist<br/></h3>
+                <h3>Artist</h3>
               </Link>
             </div>
           </div>
