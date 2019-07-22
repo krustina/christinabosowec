@@ -73,7 +73,11 @@ class NavBarDoula extends Component {
                     </Link> */}
                     <div className="toolbar">
                         <div className="header-wrapper">
-                            <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}><h1 className="link-home">CHRISTINA BOSOWEC</h1></Link>
+                            <Link to="/" style={{ textDecoration: 'none', color: 'transparentd' }}>
+                                <h1 className="link-home">
+                                    CHRISTINA <br></br> BOSOWEC
+                                </h1>
+                            </Link>
 
                             <button className="dropdown" onClick={this.handleDropdown.bind(this)} >
 

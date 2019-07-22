@@ -8,7 +8,7 @@ import './App.css';
 
 class DoulaAbout extends Component {
     componentDidMount() {
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 0);  
     }
     render() {
         return (
