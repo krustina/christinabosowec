@@ -40,8 +40,8 @@ a:hover{
 }
 @font-face {
     font-family: 'calibre-bold';
-    src: url('./fonts/CalibreBold.otf') format('opentype'),
-         url('./fonts/CalibreBold.woff')format('woff');
+    src: url('./fonts/CalibreMedium.otf') format('opentype'),
+         url('./fonts/CalibreMedium.woff')format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -290,11 +290,11 @@ li{
 }
 .website-selection-container{
     max-width: 90%;
-    width: 40%;
+    width: 50%;
     min-width: 40%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 10%;
 }
 .website-selection-container a{

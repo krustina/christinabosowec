@@ -45,7 +45,7 @@ ReactDOM.render(
     <Route path="doula_about" component={DoulaAbout} />
     <Route path="doula_services" component={DoulaServices} />
     <Route path="doula_FAQ" component={DoulaFAQ} />
-    <Route path="doula_testamonials" component={DoulaTestamonials} />
+    <Route path="doula_testimonials" component={DoulaTestamonials} />
     <Route path="doula_contact" component={DoulaContact} />
   </Router>,
   document.getElementById('root')
