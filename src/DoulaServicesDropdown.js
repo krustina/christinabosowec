@@ -65,7 +65,7 @@ class DoulaServicesDropdown extends Component {
                         </a>
                         <div className='doula-service-details'>
                             <div className='doula-package'>
-                                <h2>{this.state.package1title}&nbsp;{this.state.package1price}</h2>
+                                <b><h2>{this.state.package1title}&nbsp;{this.state.package1price}</h2></b>
                                 <ul>
                                     {this.state.package1desc.map((desc, i) =>
                                         <li key={i}>{desc}</li>)}

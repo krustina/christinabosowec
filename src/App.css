@@ -35,8 +35,13 @@ a:hover{
     font-family: 'calibre';
     src: url('./fonts/CalibreRegular.otf') format('opentype'),
          url('./fonts/Calibre.woff')format('woff');
-        /* url('./fonts/Calibre.ttf')format('truetype'),
-        url('./fonts/Calibre.svg')formate('svg'); */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'calibre-bold';
+    src: url('./fonts/CalibreBold.otf') format('opentype'),
+         url('./fonts/CalibreBold.woff')format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -274,6 +279,7 @@ li{
     color: #FEFF94;
     text-decoration: none;
 }
+
 .home-image{
     display: block;
     max-width: 25em;
@@ -299,7 +305,7 @@ li{
     align-items: center;
     padding: 1%;
 }
-.website-selection-container h3:nth-child(2n){
+.website-selection-container a:nth-child(2n){
     width: 10%;
 }
 .home-title{
@@ -384,7 +390,7 @@ button{
     display: none;
 }
 .link-home{
-    -webkit-text-stroke: 1px #2846F6;
+    -webkit-text-stroke: 0.75px #2846F6;
     font-size: 1.5em;
     color: transparent;
     cursor: pointer;
@@ -619,6 +625,7 @@ i{
     border: none;
     text-align: left;
     width: 5%;
+    background-color: white;
 }
 .doula-training{
     display: flex;
@@ -682,6 +689,9 @@ i{
     cursor: pointer;
     text-decoration: none;
 }
+.floater h2{
+    font-size: 0.9em;
+}
 .doula-services-main-container{
     display: flex;
     height: 100%;
@@ -730,7 +740,7 @@ i{
     margin-top: 8%;
 }
 .doula-package h2{
-    font-weight: 550;
+    font-family: 'calibre-bold';
 }
 .fine-print{
     text-align: left;
@@ -854,9 +864,9 @@ i{
 
 /* MOBILE STYLES */
 @media only screen and (max-width: 1050px) and (min-width: 736px) {  
-    /* .toolbar-options{
-        width: 19em;
-    } */
+    .toolbar-options{
+        width: 60%;
+    }
 }
 @media only screen and (max-width: 735px) and (min-width: 0px) {
     h2{
@@ -985,6 +995,8 @@ i{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10%;
+        z-index:0;
+        padding: 5%;
     }
     .doula-services-main-container{
         flex-direction: column;
