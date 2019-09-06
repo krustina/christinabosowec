@@ -79,7 +79,7 @@ class Grounding extends Component {
                         <br/>
                         <h2>ground ing</h2>
                         <br/>
-                        <h2>Le Mile End s’Articule </h2>
+                        <h2>Le Mile End s’Articule (2018)</h2>
                         <br/>
                         <h2>In collaboration with Mil</h2>
                         <br/>
