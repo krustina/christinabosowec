@@ -167,7 +167,7 @@ body{
     margin: 0;
     min-width: 100%;
     min-height: 100%;
-    cursor: url('./images/cursor/crouton.png'), default;
+    cursor: url('./images/cursor/crouton.png'), default !important;
 }
 h1{
     font-family: "bluu";
